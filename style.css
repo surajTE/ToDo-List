@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div{
+    width: 25rem;
+    padding: 1rem 2rem 2rem 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background: #f5ebe0;
+}
+
+.main_div input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 194);
+    margin-right: 5px;
+    outline: none; 
+}
+
+.main_div i{
+    font-size: 40px;
+    color: #1d3557;
+}
+
+.list{
+    height: 50vh;
+    overflow: auto;
+    border-radius: 10px;
+    background: #d5bdaf;
+}
+
+.list p{
+    font-size: 18px;
+    background: #edede9;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px 15px;
+}
